@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="css/day2.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>Courses</title>
+    
+</head>
+
+<body>
+<center><h1>DAY 2</h1></center>
+        <div class="day2img"> <center><img src = "image/Arm circle.gif" class="g"></center>\<center><p>Arm Circle</p></br>
+          <style>
+            button{
+               border-radius: 10px;
+               background-color: #e75480;
+               border: none;
+               color: white;
+               padding: 8px 16px;
+               text-align: center;
+               font-size: 10px;
+               margin: 4px 2px;
+               opacity: 0.6;
+               box-shadow: 2px 2px 3px 2px #888888;
+            }
+            span
+            {
+              font-size: 30px;
+              color:rgb(63, 8, 38);
+              background-color: #e75480;
+              padding: 8px 16px;
+              margin: 4px 2px;
+              border-radius: 50%;
+              width: 400px;
+              height: 400px;
+              opacity: 0.6;
+              box-shadow: 2px 2px 3px 2px #888888;
+            }
+            button:hover{
+              opacity:1;        
+            }
+            span:hover{
+              opacity:1;        
+            }
+            </style>
+
+      
+      <span id="counter"></span><br/><br/>
+      <button id="startBtn">Start</button> 
+      <button id="stopBtn">Stop</button> 
+      <button id="resetBtn">Reset</button> 
+       
+      <script rel="Javascript/text">
+        {
+           const counter = document.querySelector("#counter"); 
+           const resetBtn = document.querySelector("#resetBtn"); 
+           const startBtn = document.querySelector("#startBtn"); 
+           const stopBtn = document.querySelector("#stopBtn"); 
+           counter.innerHTML =30; 
+           let interval; 
+           let i = 30; 
+           startBtn.addEventListener("click", startCounter); 
+           stopBtn.addEventListener("click", stopCounter); 
+           resetBtn.addEventListener("click", resetCounter); 
+           function startCounter()
+           { 
+             interval = setInterval(function() 
+           {     
+           counter.innerHTML= i--;
+           if(counter.innerHTML<=0)
+           {
+             counter.innerHTML="Times up!";
+           }
+           }, 1000); 
+           }  
+          function stopCounter()
+          { 
+            clearInterval(interval); 
+          } 
+          function resetCounter()
+          { 
+           clearInterval(interval); 
+           i = 30; 
+           counter.innerHTML = i; 
+          } 
+        }
+         </script></center></div>
+        <div class="day2img"> <center><img src = "image/Butt kicks.gif" class="h"></center><br/><center><p>Butt Kicks</p></br>
+        <style>
+            button{
+               border-radius: 10px;
+               background-color: #e75480;
+               border: none;
+               color: white;
+               padding: 8px 16px;
+               text-align: center;
+               font-size: 10px;
+               margin: 4px 2px;
+               opacity: 0.6;
+               box-shadow: 2px 2px 3px 2px #888888;
+            }
+            span
+            {
+              font-size: 50px;
+              color:rgb(63, 8, 38);
+              background-color: #e75480;
+              padding: 8px 16px;
+              margin: 4px 2px;
+              border-radius: 50%;
+              width: 400px;
+              height: 400px;
+              opacity: 0.6;
+              box-shadow: 2px 2px 3px 2px #888888;
+            }
+            button:hover{
+              opacity:1;        
+            }
+            span:hover{
+              opacity:1;        
+            }
+            </style>
+
+      
+      <span id="counter1"></span><br/><br/>
+      <button id="startBtn1">Start</button> 
+      <button id="stopBtn1">Stop</button> 
+      <button id="resetBtn1">Reset</button> 
+      <script rel="Javascript/text">
+        {
+           const counter = document.querySelector("#counter1"); 
+           const resetBtn = document.querySelector("#resetBtn1"); 
+           const startBtn = document.querySelector("#startBtn1"); 
+           const stopBtn = document.querySelector("#stopBtn1"); 
+           counter.innerHTML =30; 
+           let interval; 
+           let i = 30; 
+           startBtn.addEventListener("click", startCounter); 
+           stopBtn.addEventListener("click", stopCounter); 
+           resetBtn.addEventListener("click", resetCounter); 
+           function startCounter()
+           { 
+             interval = setInterval(function() 
+           {     
+           counter.innerHTML= i--;
+           if(counter.innerHTML<=0)
+           {
+             counter.innerHTML="Times up!";
+           }
+           }, 1000); 
+           }  
+          function stopCounter()
+          { 
+            clearInterval(interval); 
+          } 
+          function resetCounter()
+          { 
+           clearInterval(interval); 
+           i = 30; 
+           counter.innerHTML = i; 
+          } 
+        }
+         </script></center></div>
+        <div class="day2img"> <center><img src = "image/Shoulder Press.gif" class="i"></center><br/><center><p>Shoulder Press</p></br>
+          <style>
+            button{
+               border-radius: 10px;
+               background-color: #e75480;
+               border: none;
+               color: white;
+               padding: 8px 16px;
+               text-align: center;
+               font-size: 10px;
+               margin: 4px 2px;
+               opacity: 0.6;
+               box-shadow: 2px 2px 3px 2px #888888;
+            }
+            span
+            {
+              font-size: 50px;
+              color:rgb(63, 8, 38);
+              background-color: #e75480;
+              padding: 8px 16px;
+              margin: 4px 2px;
+              border-radius: 50%;
+              width: 400px;
+              height: 400px;
+              opacity: 0.6;
+              box-shadow: 2px 2px 3px 2px #888888;
+            }
+            button:hover{
+              opacity:1;        
+            }
+            span:hover{
+              opacity:1;        
+            }
+            </style>
+
+      
+      <span id="counter2"></span><br/><br/>
+      <button id="startBtn2">Start</button> 
+      <button id="stopBtn2">Stop</button> 
+      <button id="resetBtn2">Reset</button> 
+      <script rel="Javascript/text">
+        {
+           const counter = document.querySelector("#counter2"); 
+           const resetBtn = document.querySelector("#resetBtn2"); 
+           const startBtn = document.querySelector("#startBtn2"); 
+           const stopBtn = document.querySelector("#stopBtn2"); 
+           counter.innerHTML =30; 
+           let interval; 
+           let i = 30; 
+           startBtn.addEventListener("click", startCounter); 
+           stopBtn.addEventListener("click", stopCounter); 
+           resetBtn.addEventListener("click", resetCounter); 
+           function startCounter()
+           { 
+             interval = setInterval(function() 
+           {     
+           counter.innerHTML= i--;
+           if(counter.innerHTML<=0)
+           {
+             counter.innerHTML="Times up!";
+           }
+           }, 1000); 
+           }  
+          function stopCounter()
+          { 
+            clearInterval(interval); 
+          } 
+          function resetCounter()
+          { 
+           clearInterval(interval); 
+           i = 30; 
+           counter.innerHTML = i; 
+          } 
+        }
+         </script></center></div>
+        <div class="day2img"> <center><img src = "image/pulseups.gif" class="j"></center><br/><center><p>Pulse Ups</p></br>
+          <style>
+            button{
+               border-radius: 10px;
+               background-color: #e75480;
+               border: none;
+               color: white;
+               padding: 8px 16px;
+               text-align: center;
+               font-size: 10px;
+               margin: 4px 2px;
+               opacity: 0.6;
+               box-shadow: 2px 2px 3px 2px #888888;
+            }
+            span
+            {
+              font-size: 50px;
+              color:rgb(63, 8, 38);
+              background-color: #e75480;
+              padding: 8px 16px;
+              margin: 4px 2px;
+              border-radius: 50%;
+              width: 400px;
+              height: 400px;
+              opacity: 0.6;
+              box-shadow: 2px 2px 3px 2px #888888;
+            }
+            button:hover{
+              opacity:1;        
+            }
+            span:hover{
+              opacity:1;        
+            }
+            </style>
+
+      
+      <span id="counter3"></span><br/><br/>
+      <button id="startBtn3">Start</button> 
+      <button id="stopBtn3">Stop</button> 
+      <button id="resetBtn3">Reset</button> 
+      <script rel="Javascript/text">
+        {
+           const counter = document.querySelector("#counter3"); 
+           const resetBtn = document.querySelector("#resetBtn3"); 
+           const startBtn = document.querySelector("#startBtn3"); 
+           const stopBtn = document.querySelector("#stopBtn3"); 
+           counter.innerHTML =30; 
+           let interval; 
+           let i = 30; 
+           startBtn.addEventListener("click", startCounter); 
+           stopBtn.addEventListener("click", stopCounter); 
+           resetBtn.addEventListener("click", resetCounter); 
+           function startCounter()
+           { 
+             interval = setInterval(function() 
+           {     
+           counter.innerHTML= i--;
+           if(counter.innerHTML<=0)
+           {
+             counter.innerHTML="Times up!";
+           }
+           }, 1000); 
+           }  
+          function stopCounter()
+          { 
+            clearInterval(interval); 
+          } 
+          function resetCounter()
+          { 
+           clearInterval(interval); 
+           i = 30; 
+           counter.innerHTML = i; 
+          } 
+        }
+         </script></center></div>
+        <div class="day2img"><center><img src = "image/situp.gif" class="k"></center></br><center><p>Sit Ups</p></br>
+          <style>
+            button{
+               border-radius: 10px;
+               background-color: #e75480;
+               border: none;
+               color: white;
+               padding: 8px 16px;
+               text-align: center;
+               font-size: 10px;
+               margin: 4px 2px;
+               opacity: 0.6;
+               box-shadow: 2px 2px 3px 2px #888888;
+            }
+            span
+            {
+              font-size: 50px;
+              color:rgb(63, 8, 38);
+              background-color: #e75480;
+              padding: 8px 16px;
+              margin: 4px 2px;
+              border-radius: 50%;
+              width: 400px;
+              height: 400px;
+              opacity: 0.6;
+              box-shadow: 2px 2px 3px 2px #888888;
+            }
+            button:hover{
+              opacity:1;        
+            }
+            span:hover{
+              opacity:1;        
+            }
+            </style>
+
+      
+      <span id="counter4"></span><br/><br/>
+      <button id="startBtn4">Start</button> 
+      <button id="stopBtn4">Stop</button> 
+      <button id="resetBtn4">Reset</button> 
+      <script rel="Javascript/text">
+        {
+           const counter = document.querySelector("#counter4"); 
+           const resetBtn = document.querySelector("#resetBtn4"); 
+           const startBtn = document.querySelector("#startBtn4"); 
+           const stopBtn = document.querySelector("#stopBtn4"); 
+           counter.innerHTML =30; 
+           let interval; 
+           let i = 30; 
+           startBtn.addEventListener("click", startCounter); 
+           stopBtn.addEventListener("click", stopCounter); 
+           resetBtn.addEventListener("click", resetCounter); 
+           function startCounter()
+           { 
+             interval = setInterval(function() 
+           {     
+           counter.innerHTML= i--;
+           if(counter.innerHTML<=0)
+           {
+             counter.innerHTML="Times up!";
+           }
+           }, 1000); 
+           }  
+          function stopCounter()
+          { 
+            clearInterval(interval); 
+          } 
+          function resetCounter()
+          { 
+           clearInterval(interval); 
+           i = 30; 
+           counter.innerHTML = i; 
+          } 
+        }
+         </script></center></div>  
+        <div class="day2img"><center><img src = "image/crunches.gif" class="l"></center></br><center><p>Crunches</p></br>
+          <style>
+            button{
+               border-radius: 10px;
+               background-color: #e75480;
+               border: none;
+               color: white;
+               padding: 8px 16px;
+               text-align: center;
+               font-size: 10px;
+               margin: 4px 2px;
+               opacity: 0.6;
+               box-shadow: 2px 2px 3px 2px #888888;
+            }
+            span
+            {
+              font-size: 50px;
+              color:rgb(63, 8, 38);
+              background-color: #e75480;
+              padding: 8px 16px;
+              margin: 4px 2px;
+              border-radius: 50%;
+              width: 400px;
+              height: 400px;
+              opacity: 0.6;
+              box-shadow: 2px 2px 3px 2px #888888;
+            }
+            button:hover{
+              opacity:1;        
+            }
+            span:hover{
+              opacity:1;        
+            }
+            </style>
+
+      
+      <span id="counter5"></span><br/><br/>
+      <button id="startBtn5">Start</button> 
+      <button id="stopBtn5">Stop</button> 
+      <button id="resetBtn5">Reset</button> 
+      <script rel="Javascript/text">
+        {
+           const counter = document.querySelector("#counter5"); 
+           const resetBtn = document.querySelector("#resetBtn5"); 
+           const startBtn = document.querySelector("#startBtn5"); 
+           const stopBtn = document.querySelector("#stopBtn5"); 
+           counter.innerHTML =30; 
+           let interval; 
+           let i = 30; 
+           startBtn.addEventListener("click", startCounter); 
+           stopBtn.addEventListener("click", stopCounter); 
+           resetBtn.addEventListener("click", resetCounter); 
+           function startCounter()
+           { 
+             interval = setInterval(function() 
+           {     
+           counter.innerHTML= i--;
+           if(counter.innerHTML<=0)
+           {
+             counter.innerHTML="Times up!";
+           }
+           }, 1000); 
+           }  
+          function stopCounter()
+          { 
+            clearInterval(interval); 
+          } 
+          function resetCounter()
+          { 
+           clearInterval(interval); 
+           i = 30; 
+           counter.innerHTML = i; 
+          } 
+        }
+         </script></center></div> 
+
+    </body>
+</html>

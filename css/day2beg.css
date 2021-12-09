@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D198B7;
+}
+h1{
+    margin-top: 50px;
+    font-family: 'Abril Fatface', 'cursive';
+}
+p{
+    font-family: 'Abril Fatface', 'cursive';
+    font-size: 15px;
+    color: black;
+}
+.day2img{
+
+    font-size: 13px;
+  color:rgb(192, 191, 191);
+  font-family: 'ALTERNATE GOTHIC';
+  background-color: pink;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.30), 0 14px 11px rgba(0, 0, 0, 0.22);
+  width: 400px;
+  height: 390px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+ 
+}
+.g{
+    width:300px;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.h{
+    width:300px;
+    height: 200px;
+    margin-top: 5px;
+}
+.i{
+    width:300px;
+    height: 200px;
+    margin-top: 5px;
+}
+.j{
+    width:300px;
+    height: 200px;
+    margin-top: 5px;
+}
+.k{
+    width:300px;
+    height: 200px;
+    margin-top: 5px;
+}
+.l{
+    width:300px;
+    height: 200px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 720px) {
+
+.day2img {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 70px;
+   }
+}

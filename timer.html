@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+        <style>
+        button{
+           border-radius: 10px;
+           background-color: #e75480;
+           border: none;
+           color: white;
+           padding: 8px 16px;
+           text-align: center;
+           font-size: 10px;
+           margin: 4px 2px;
+           opacity: 0.6;
+           box-shadow: 2px 2px 3px 2px #888888;
+        }
+        span
+        {
+          font-size: 50px;
+          color:white;
+          background-color: #e75480;
+          padding: 8px 16px;
+          margin: 4px 2px;
+          border-radius: 50%;
+          width: 400px;
+          height: 400px;
+          opacity: 0.6;
+          box-shadow: 2px 2px 3px 2px #888888;
+        }
+        button:hover{
+          opacity:1;        
+        }
+        span:hover{
+          opacity:1;        
+        }
+        </style>
+</head>
+
+<body>
+  
+  <span id="counter"></span><br/><br/>
+  <button id="startBtn">Start</button> 
+  <button id="stopBtn">Stop</button> 
+  <button id="resetBtn">Reset</button> 
+   
+  
+  <script rel="Javascript/text">
+ {
+    const counter = document.querySelector("#counter"); 
+    const resetBtn = document.querySelector("#resetBtn"); 
+    const startBtn = document.querySelector("#startBtn"); 
+    const stopBtn = document.querySelector("#stopBtn"); 
+    counter.innerHTML =20; 
+    let interval; 
+    let i = 20; 
+    startBtn.addEventListener("click", startCounter); 
+    stopBtn.addEventListener("click", stopCounter); 
+    resetBtn.addEventListener("click", resetCounter); 
+    function startCounter()
+    { 
+      interval = setInterval(function() 
+    {     
+    counter.innerHTML= i--;
+    if(counter.innerHTML<=0)
+    {
+      counter.innerHTML="Times up!";
+    }
+    }, 1000); 
+    }  
+   function stopCounter()
+   { 
+     clearInterval(interval); 
+   } 
+   function resetCounter()
+   { 
+    clearInterval(interval); 
+    i = 20; 
+    counter.innerHTML = i; 
+   } 
+ }
+  </script>
+</body>
+</html>

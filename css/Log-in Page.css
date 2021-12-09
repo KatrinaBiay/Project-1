@@ -1,0 +1,61 @@
+.square{
+	height: 600px;
+	width: 510px;
+	background-color: #d6d6d6;
+	box-shadow: 0 0 50px 5px #d15cc5;
+	position: relative;
+	margin-top: 50px;
+	border-radius: 2%;
+}
+
+.img{
+	position: relative;
+	width: 150px;
+	height: 160px;
+	z-index: +1;
+}
+
+.head-text{
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+
+}
+
+.Username{
+	width: 320px;
+	height: 40px;
+	border: 2px solid #8a8383;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 8px;
+}
+
+.Password{
+	width: 320px;
+	height: 40px;
+	border: 2px solid #8a8383;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 8px;
+}
+
+.log-in-button{
+	background-color:#d15cc5;
+	color: white;
+	font-size: 16px;
+	width: 320px;
+	height: 40px;
+	font-family: sans-serif;
+	cursor: pointer;
+	margin: 8px;
+}
+
+.sign-up{
+	font-family: sans-serif;
+	color: #474747;
+}
+
+a {
+	text-decoration: none;
+}

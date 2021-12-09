@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#009578">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/samplecourse.css" /> 
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="image/bufflogo.png" />
+    <link rel="apple-touch-icon" type="text/css" href="image/gym logo.png">
+
+
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <!-- header start -->
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand p-0" href="#">
+            <img
+              class="img-fluid logo"
+              src="image/logo bmp2.png"
+              alt="buff me up logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-grow-0"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#course">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Daily.html">DAILY REPORT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formpage.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <button onclick="document.location='log-in.php'" type="button" class="btn btn-secondary nav-link btnnav">
+                  LOG IN
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <main>
+      <!-- HOME START -->
+      <section id="home">
+        <div class="container-fluid has-bg-img p-0 homecover position-relative">
+          <img
+            class="bg-img img-fluid buffimg w-100 h-auto"
+            src="image/buffmeup.png"
+            alt="buff me up"
+          />
+         
+        </div>
+      </section>
+      <!-- HOME END -->
+
+<!-- COURSE START -->
+<section id="course">
+  <div class="container-fluid bg-pink w-100 h-70 py-5 justify-content-center align-item-center" 
+  data-aos="fade-up" data-aos-duration="1000" id="sec3">
+  <div class="container-fluid bg-pink py-5" id="sec5">
+    <div class="title col-lg-12 m-auto">
+        <!---------------------------- DITO MO LALAGAY YONG TITLE ---------------------------->   
+       <h1 class="fs-10 text-center text-black" data-aos="fade-up"  data-aos-duration="1000">WHAT WE OFFER</h1>
+        </div>
+       <div class="row col-lg-10 m-auto py-5"> 
+
+       <!---------------------------- COURSE 1 ---------------------------->   
+       <div class="col-md-3 py-4 m-auto">
+        <div class="card text-center bg-transparent text-black" data-aos="fade-up" data-aos-duration="1000">
+        
+           
+           <div class="card-body">
+               <h5>BEGINNER</h5>
+               <a href="beginner.html">
+                 <img  class="card-img-top"  src="image/beginner.gif">
+               </a>
+           </div>
+       </div>
+   </div>
+
+         <!---------------------------- COURSE 2 ---------------------------->   
+         <div class="col-md-3 py-4 m-auto">
+          <div class="card text-center bg-transparent text-black" data-aos="fade-up" data-aos-duration="1000">
+          
+             
+             <div class="card-body">
+                 <h5>INTERMEDIATE</h5>
+                 <a href="intermidiate.html">
+                   <img  class="card-img-top"  src="image/asda.gif">
+                 </a>
+             </div>
+         </div>
+     </div>
+
+
+         <!---------------------------- COURSE 3---------------------------->   
+         <div class="col-md-3 py-5 m-auto">
+          <div class="card text-center bg-transparent text-black" data-aos="fade-up" data-aos-duration="1000">
+          
+             
+             <div class="card-body">
+                 <h5>EXPERT</h5>
+                 <a href="expert.html">
+                   <img  class="card-img-top"src="image/qwsd.gif">
+                 </a>
+             </div>
+         </div>
+     </div>
+      <!--------
+  </div>
+</div>
+</div>
+</section>
+  <!-- COURSE END -->
+
+    
+      <!-- ABOUT START -->
+      <section id="about" class="background"  >
+
+
+  
+
+      </section>
+      <!-- ABOUT END -->
+
+      <!-- DAILY REPORT START -->
+      <section id="daily">
+
+      </section>
+      <!-- DAILY REPORT END -->
+
+      <!-- CONTACT START -->
+      <section id="contact">
+
+      </section>
+      <!-- CONTACT END -->
+
+
+    </main>
+
+    <footer>
+      <div class="container-fluid footer-div">
+        <div class="row gx-3 p-3">
+          <div class="col-sm-4 con">
+            <p class = "con-title">
+              ABOUT 
+            </p>
+            <p id = "footer-about">
+              We created the buff me up management gym system 
+              for convenience of customer and staffs. Our web-application 
+              programs design allows for mobility skill practice, strength 
+              training, and high intensity conditioning to meet the customer's 
+              goals and needs. We have reputation that our  website are reliable 
+              and user-friendly for customers.
+            </p>
+          </div>
+          <div class="col-sm-4 con-social">
+            <p class = "con-title" >
+              SOCIAL
+            </p>
+            <table class = "footer-text">
+              <tr>
+                <td><a href="https://www.facebook.com/katrina.biay"><ion-icon name="logo-facebook" size="large"> </ion-icon></a></td>
+                <td style="padding-top: 15px; padding-left: 10px"><p>Facebook</p></td>
+              </tr>
+              <tr>
+                <td><a href="https://www.facebook.com/katrina.biay"><ion-icon name="logo-instagram" size="large"> </ion-icon></a></td>
+                <td style="padding-top: 15px; padding-left: 10px"><p>Instagram</p></td>
+              </tr>
+              <tr>
+                <td><a href="https://www.facebook.com/katrina.biay"><ion-icon name="logo-twitter" size="large"> </ion-icon></a></td>
+                <td style="padding-top: 15px; padding-left: 10px"><p>Twitter</p></td>
+              </tr>
+            </table>            
+            
+          </div>
+          <div class="col-sm-4 con">
+            <p class = "con-title">
+              CONTACT 
+            </p>
+            <p class = "footer-text">
+              <b>Tel No.:</b> (02)-89229132 <br>
+            </p>
+            <p class = "footer-text">
+              <b>Mobile No.:</b> 09462677033 <br>
+            </p>
+            <p class = "footer-text">
+              <b>Email:</b> group5@gmail.com <br>
+            </p>
+            <p class = "footer-text">
+              <b>Address: </b> Don Julio Gregorio St., Bagbag, Novaliches, Quezon City
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- footer icons start-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- footer icon end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

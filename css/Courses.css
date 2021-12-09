@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #D198B7;
+}
+.navbar {
+    background-color: #503243;
+    z-index: 1000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+  width: 100%;
+}
+.nav-link {
+    font-family: 'ALTERNATE GOTHIC';
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.nav-link:hover {
+    color: #B80A61;
+}
+.sticky {
+    position: fixed;
+    top: 50;
+    width: 100%;
+}
+.logo {
+    width: 130px;
+    height: 80px;
+
+}
+section {
+    padding-top: 30px;
+}
+.rows1 {
+    max-width: 100%;
+    position: relative;
+    bottom: 130px;
+}
+.btn:hover{
+    background-color: #B80A61;
+}

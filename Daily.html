@@ -1,0 +1,78 @@
+<!-- <?php 
+include("Nav.php");
+$connect = mysqli_connect("localhost", "root","","shop");
+ ?>	
+ -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewfort" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> 
+	<title>CHECKOUT</title>
+</head>
+<body style="background-image: url('image/gym bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center border rounded bg-1 text-light mt-5">
+				<h1>DAILY REPORT</h1>
+				
+			</div>
+
+			<div class="col-lg-18">
+				<table class="table table-striped table-light	" width="300px;">
+				  <thead class="text-center">
+				    <tr>
+				      <th scope="col">Customer Name</th>				      
+				      <th scope="col">Week No.</th>
+				      <th scope="col">Intensity</th>
+				      <th scope="col">Total Seconds</th>
+				      
+				      
+
+				    </tr>
+				  </thead>
+				  <tbody class="text-center">
+				  	<!-- <?php 
+				  	$total=0;		  	
+				  	$query = "SELECT first_name,cart.id,quantity,price as productPrice,name,(quantity * price) as totalPrice,img FROM `cart` 
+				  	JOIN customer on cart.user_id = customer.user_id JOIN products on product_id = products.id where cart.user_id  =".$_SESSION["user_id"]."";
+					$result = mysqli_query($connect, $query);
+					if(mysqli_num_rows($result) > 0)
+					{
+						while ($row = mysqli_fetch_array($result))
+						 {
+				  			echo " <tr>
+				  					<td>".$row['first_name']."</td>
+				  					<td>".$row['name']."</td>
+				  					<td>".$row['productPrice']."</td>
+		   	  					    <td>".$row['quantity']."</td>
+				  					<td>".$row['totalPrice']."</td>";
+				  			
+				  		}
+
+				  	}
+				  	 	?>				     -->				    
+				  </tbody>
+				</table>				
+			</div>
+
+			<div class="col-lg-4">
+				<div class="border bg-light rounded p-4">
+					
+						 	<h4>TOTAL OF CALORIES BURNED:</h4>
+					<h5 class="text-left"></h5>
+					<form action="Shop.php">
+					</form>
+					
+				</div>
+			</div> 
+
+			
+		</div>
+		
+	</div>
+	
+
+</body>
+</html>
